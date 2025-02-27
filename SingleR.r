@@ -9,8 +9,8 @@ library(scater)
 ad = import("anndata")
 sklearn <- import("sklearn")
 
-train_file = "C:/Users/Administrator/Desktop/scRNA_annotation/SCSA/data/Zheng_68K_test.h5ad"
-test_file = "C:/Users/Administrator/Desktop/scRNA_annotation/SCSA/data/Zheng_68K_train.h5ad"
+train_file = "C:/Users/Administrator/Desktop/scRNA_annotation/SCSA/data/Baron_human_test.h5ad"
+test_file = "C:/Users/Administrator/Desktop/scRNA_annotation/SCSA/data/Baron_human_train.h5ad"
 
 
 train_ad = ad$read_h5ad(train_file)
